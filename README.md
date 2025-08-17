@@ -44,14 +44,14 @@
 
 ### 3Dプリンタで印刷したもの
 
-- (A)プーリー 8つ ![](https://uploader.apps.ikeji.ma/file/fdb61d807233d40d4f1939bcb376d20c/320df7ec-0f20-4f2a-a2c1-77316c963975~1.jpg)
-- (B)プーリークリップ 2つ ![](https://uploader.apps.ikeji.ma/file/143b8d736f12af4140bd8fba50ab57bf/e782be46-7fb9-4d57-987c-f2df75e39552~1.jpg)
-- (C)プーリー軸 2つ ![](https://uploader.apps.ikeji.ma/file/19a988a16bd233fb0ee298f51f00f7d7/9801f13c-6a5c-4a3a-a01f-0bcc9ae9f093~1.jpg)
-- (D)モータークリップ 2つ ![](https://uploader.apps.ikeji.ma/file/07ce78b524179db7fe1bbf58b169b1cb/51f14226-2e7a-4901-a57a-36110730121c~1.jpg)
-- (E)モーター用プーリー 2つ ![](https://uploader.apps.ikeji.ma/file/8fab9581df4d73bd59f288a8c060c049/c071d57b-7c7f-48c5-9889-edb0fbbbd962~1.jpg)
-- (F)Xブロック 2つ ![](https://uploader.apps.ikeji.ma/file/c925b70e08841128fc325490493fdeb2/38009a7f-dcc7-4b1c-b82c-8072d16fdf31~1.jpg)
-- (G)Xブロック軸 2つ ![](https://uploader.apps.ikeji.ma/file/edfc3341e7f377bb99f4e2d9bcef7036/62524863-9ef0-4c37-aeb4-5435118d672b~1.jpg)
-- (H)ヘッド 1つ ![](https://uploader.apps.ikeji.ma/file/1469bdeba9a156390a80a3a912d7f106/9daf8a5b-0054-46bb-9f5c-3bc9f2ebacf6~1.jpg)
+- (A)[プーリー](./step/a-pully.step) 8つ ![](https://uploader.apps.ikeji.ma/file/fdb61d807233d40d4f1939bcb376d20c/320df7ec-0f20-4f2a-a2c1-77316c963975~1.jpg)
+- (B)[プーリークリップ](./step/b-pully-clip.step) 2つ ![](https://uploader.apps.ikeji.ma/file/143b8d736f12af4140bd8fba50ab57bf/e782be46-7fb9-4d57-987c-f2df75e39552~1.jpg)
+- (C)[プーリー軸](./step/c-pully-axis.step) 2つ ![](https://uploader.apps.ikeji.ma/file/19a988a16bd233fb0ee298f51f00f7d7/9801f13c-6a5c-4a3a-a01f-0bcc9ae9f093~1.jpg)
+- (D)[モータークリップ](./step/d-motor-clip.step) 2つ ![](https://uploader.apps.ikeji.ma/file/07ce78b524179db7fe1bbf58b169b1cb/51f14226-2e7a-4901-a57a-36110730121c~1.jpg)
+- (E)[モーター用プーリー](./step/e-motor-pully.step) 2つ ![](https://uploader.apps.ikeji.ma/file/8fab9581df4d73bd59f288a8c060c049/c071d57b-7c7f-48c5-9889-edb0fbbbd962~1.jpg)
+- (F)[Xブロック](./step/f-x-block.step) 2つ ![](https://uploader.apps.ikeji.ma/file/c925b70e08841128fc325490493fdeb2/38009a7f-dcc7-4b1c-b82c-8072d16fdf31~1.jpg)
+- (G)[Xブロック軸](./step/g-x-block-cap.step) 2つ ![](https://uploader.apps.ikeji.ma/file/edfc3341e7f377bb99f4e2d9bcef7036/62524863-9ef0-4c37-aeb4-5435118d672b~1.jpg)
+- (H)[ヘッド](./step/h-head.step) 1つ ![](https://uploader.apps.ikeji.ma/file/1469bdeba9a156390a80a3a912d7f106/9daf8a5b-0054-46bb-9f5c-3bc9f2ebacf6~1.jpg)
 
 FreeCADでデザインした。
 
@@ -159,7 +159,7 @@ Xモジュールとヘッドを置き、糸をはわせる。
 MicroPythonのサイトからU2Fをダウンロードし、
 RaspberryPiに入れる。
 
-次に用意したサンプルスクリプト([sample.py](./sample.py))を書き込む。
+次に用意したサンプルスクリプト([sample.py](./firmware/sample.py))を書き込む。
 Linuxならmpremoteコマンドを使ってる。
 このスクリプトは設定した四角形を描く。
 
