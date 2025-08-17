@@ -178,6 +178,18 @@ Linuxならmpremoteコマンドを使ってる。
 
 ![](https://uploader.apps.ikeji.ma/file/78e935f93b42535e18511b642aa06d3f/PXL_20250812_021223526.RAW-01.COVER~5.jpg)
 
+## リンク
+
+- 動画
+  - [第一世代](https://x.com/ikeji/status/1926441077013106829)
+  - [第二世代](https://x.com/ikeji/status/1931363801653526600)
+- 開発ログ
+  - [2025W21](https://blog.ikejima.org/weekly/2025/05/26/2025w21.html)
+  - [2025W22](https://blog.ikejima.org/weekly/2025/06/03/2025w22.html)
+  - [2025W23](https://blog.ikejima.org/weekly/2025/06/10/2025w23.html)
+- 紹介された
+  - [2025年4-6月の自作ペンプロッタを愛でる会](https://note.com/penplotter/n/n4fdf6959738a#017fe1ae-cd83-49cf-acd3-3303a340d920)
+
 ## 免責事項
 
 無保証/MIT License
